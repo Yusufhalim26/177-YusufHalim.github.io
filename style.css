@@ -1,0 +1,149 @@
+
+body, html {
+   height: 100%;
+   overflow-x: hidden;
+   margin: 0;
+}
+ 
+.parallax {
+   background-image: url(halim.jpg);
+   height: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+.scroll{
+    background-image: url(nah.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.parallax p{
+    font-family: cursive;
+    color: white;
+    font-size: 39px;
+    padding-left: 80px;
+    padding-top: 175px;
+    display: flex;
+}
+
+body{
+    background-image: url(nah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: helvetica;
+    color: azure;
+    overflow-x: hidden;
+
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px; 
+}
+
+.table-container{
+    width: 100%;
+}
+
+.tittle{
+    text-align: center;
+    background-color: red; 
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    min-width: 230px;
+}
+
+hr {
+    margin: 0; 
+    border: solid 1px red;
+}
+
+.profile{
+    width: 50%;
+}
+
+.profile img{
+    width: 170px;
+    float: left;
+    margin-right: 15px;
+}
+
+td{
+    vertical-align: top;
+    padding: 15px; 
+}
+
+.skill .content{
+    background-color: aliceblue;
+    color: grey;
+    padding: 15px;
+    border-radius: 4%;
+
+}
+
+.skill ul{
+    margin: 0;
+    list-style: none;
+}
+
+.skill li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom:solid 1px grey;
+}
+
+.skill .level{
+    background-color: rgb(255, 0, 21);
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.tabel{
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.table-cointer th{
+    background-color: red;
+    padding: 10px 15px;
+}
+
+.table-cointer td{
+    padding: 10px 15px;
+}
+
+.tabel tr:nth-child(even){
+    background-color: grey;;
+}
+
+.tabel tr:nth-child(odd){
+    background-color: rgb(53, 50, 50);
+}
+
+footer{
+    position: relative;
+    top:175px;
+    color: black;
+    font-size: 20px;
+}
